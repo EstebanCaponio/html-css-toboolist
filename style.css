@@ -11,11 +11,11 @@ body{
     margin-top: 0px;
     margin-left: 0px;
     margin-right: 0px;
-    background-color: #14aaf5;
+    background-color: #f6f8f9;
 }
 
 main{
-    background-color: #14aaf5;
+    background-color: #f6f8f9;
 }
 /******header******/
 #intestazione{
@@ -82,9 +82,9 @@ img{
     box-sizing: border-box;
     margin: auto;
     margin-top: 1px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     width: 790px;
-    height: 530px;
+    
     background-color: #ffffff;
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
@@ -116,10 +116,21 @@ img{
     color: #4ccfb8;
 }
 
-/*test più bottoni*/
+/*croce rossa*/
+.negative{
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 50%;
+    border-color: #ff1010;
+    color: #ff1010;
+}
+
+/*bottoni condizioni generali*/
 
 .buttons{
-    background-color: #14aaf5;
     color: #ffffff;
     font-size: 10px;
     padding-left: 5px;
@@ -127,4 +138,30 @@ img{
     padding-top: 3px;
     padding-bottom: 3px;
     border-radius: 7px;
+}
+
+/*colori dei bottoni*/
+
+.edit{
+    background-color: #14aaf5;
+}
+
+.q1{
+    background-color: #ab5de6;
+}
+
+.rec{
+    background-color: #2cc6ab;
+}
+
+.mob{
+    background-color: #ff9b00;
+}
+
+.web{
+    background-color: #ec4a9d;
+}
+
+.sal{
+    background-color: #a3d116;
 }
