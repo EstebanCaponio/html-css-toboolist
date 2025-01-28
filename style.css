@@ -1,7 +1,7 @@
 /*condizioni generali default*/
 *{
     font-family: Arial, Helvetica, sans-serif;
-    background-color: #ffffff;
+    background-color: #f6f8f9;
 }
 
 
@@ -10,20 +10,64 @@ body{
     margin-top: 0px;
     margin-left: 0px;
     margin-right: 0px;
-    background-color: #f6f8f9;
 }
 
-/*header*/
+/******header******/
 #intestazione{
     box-sizing: border-box;
     height: 70px;
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 20px;
+    background-color: #ffffff;
+}
+
+img{
+    background-color: #ffffff;
 }
 
 #toboolist{
     display: inline-block;
     font-weight: bolder;
     font-size: 30px;
+    background-color: #ffffff;
+}
+
+/******primo riquadro******/
+.first-box{
+    margin: auto;
+    margin-top: 40px;
+    width: 790px;
+    height: 50px;
+    background-color: #ffffff;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+/*condizioni generali 2 bottoni*/
+.button-general{
+    display: inline-block;
+    box-sizing: border-box;
+    width: 70px;
+    height: 25px;
+    text-align: center;
+    font-size: 10px;
+    padding-top: 7px;
+    border-radius: 5px;
+    margin-top: 12.5px;
+}
+
+/*add tast*/
+.task{
+    background-color: #14aaf5;
+    color: #ffffff;
+    margin-left: 50px;
+}
+
+/*add section*/
+.section{
+    border-width: 1px;
+    border-style: solid;
+    border-color: #c4cbd0;
+    color: #c4cbd0;
 }
