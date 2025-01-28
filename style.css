@@ -71,3 +71,17 @@ img{
     border-color: #c4cbd0;
     color: #c4cbd0;
 }
+
+/******secondo riquadro******/
+.second-box{
+    margin: auto;
+    margin-top: 1px;
+    margin-bottom: 10px;
+    width: 790px;
+    height: 530px;
+    background-color: #ffffff;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+/*condizioni generali TUTTI i div/span*/
