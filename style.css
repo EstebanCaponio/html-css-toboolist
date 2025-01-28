@@ -1,11 +1,20 @@
+/*condizioni generali default*/
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ffffff;
+}
+
+
+/*condizioni generali corpo*/
 body{
     margin-top: 0px;
     margin-left: 0px;
     margin-right: 0px;
+    background-color: #f6f8f9;
 }
 
+/*header*/
 #intestazione{
-    background-color: #ffffff;
     box-sizing: border-box;
     height: 70px;
     padding-top: 10px;
@@ -13,6 +22,8 @@ body{
     padding-left: 20px;
 }
 
-.toboolist{
+#toboolist{
     display: inline-block;
+    font-weight: bolder;
+    font-size: 30px;
 }
